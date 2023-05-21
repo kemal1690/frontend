@@ -17,6 +17,8 @@ console.log("HEllo World with double quote");
 
 let message = "Hello to Js";
 console.log(message);
+message = 'Js is fun';
+console.log(message);
 
 var num = 10;//we can also create with let
 
@@ -37,3 +39,12 @@ console.log(coffee);//undefined
 let negativity = null;
 
 console.log(negativity);
+
+//create a variable that can not change
+//const => short for constant a calue that doesnt change like final keyword in Apex
+//EX: public static final double pi;
+
+const fName = "Chris";
+
+//fName = "smth"; throw an error const variable can not be reassigned
+
