@@ -1,0 +1,1 @@
+https://robocorp.com/docs/static/build/development-guide/salesforce/using-salesforce-api/salesforce-logo.jpg

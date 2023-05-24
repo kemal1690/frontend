@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+
+<script>
+  function myFunction() {
+    document.getElementById("demo").innerHTML = "Login successful";
+  }
+  </script>
+
+<style>
+    table, th, td {
+        border:1px solid rgb(24, 9, 9);
+      }
+
+      .required {
+        color: red;
+      }    
+      
+</style>
+
+<body>
+
+<!--comment Ctrl + /-->
+
+<p>1st paragraph</p>
+
+<h1>Salesforce Page</h1>
+
+<a href="https://www.salesforce.com/eu/?ir=1">Salesforce</a>
+
+<img src="https://robocorp.com/docs/static/build/development-guide/salesforce/using-salesforce-api/salesforce-logo.jpg" 
+width="300" height= "300" alt="salesforce logo">
+
+<h1>Unordered list</h1>
+
+<ul>
+<li>SOSL</li>
+<li>SOQL</li>
+<li>LWC</li>
+
+</ul>
+
+<h1>Ordered List</h1>
+
+<ol>
+    <li>item1</li>
+    <li>item2</li>
+    <li>item3</li>
+</ol>
+<thead>Person Table</thead>
+<table style="width:100%">
+    <tr>
+      <th>Name</th>
+      <th>Subject</th>
+      <th>Marks</th>
+    </tr>
+    <tr>
+      <td rowspan="3">Jon Snow</td>
+      <td>English</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>Maths</td>
+      <td>82</td>
+    </tr>
+    <tr>
+      <td>Science</td>
+      <td>91</td>
+    </tr>
+  </table>
+
+
+
+<div class="control">
+  <label for="name">Username<span class="required">*</span></label><br><input id="name" type="text" />
+</div>
+
+<div class="control">
+  <label for="password">Password<span class="required">*</span><br></label><input id="password" type="text" />
+</div>
+
+
+
+<p>Email</p>
+<input type="email" placeholder="abc@bca.com">
+
+<p>Age</p>
+<input type="number">
+
+<p>Enter your birthday</p>
+<input type="date">
+
+<p>Click the button:</p>
+<div>
+
+<input type="button" value="Click!!!">
+    <input type="reset" >
+    <input type="search" >
+    <input type="submit">
+    
+</div>
+    
+    
+<p>
+
+   Select your physical condition
+        <input type="range" min="1" max="10" value="5">
+   
+</p>
+         
+  <p>
+    Working
+      <input type="checkbox" checked>
+  </p>    
+    
+
+    
+      <label for="major">Select your Major:</label>
+    <select name="major" id="major">
+        <option value="SF Developer">SF Developer</option>
+        <option value="SF Admin">SF Admin</option>
+        <option value="Salesforce Consultant">Salesforce Consultant</option>
+        <option value="Salesforce Designer">Salesforce Designer</option>
+      </select>
+
+      <button type="submit">Login</button>
+      <div class="container">
+        <input type="submit" value="Login" onclick="login()" />
+      </div>
+
+
+      <p id="demo">Login</p>
+
+       <button type="button" onclick="myFunction()">Login</button>
+
+       <script src="https://www.w3schools.com/js/myScript.js"></script>
+
+
+
+</body>
+</html>
